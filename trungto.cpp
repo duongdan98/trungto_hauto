@@ -1,5 +1,4 @@
 #include "ClassStack.cpp"
-#include <string>
 /*
 ý tưởng:chuyển biểu thức trung tố sang hậu tố 253+6*(7+3)*15
 +duyệt vòng lập qua tất cả các phần tử của chuỗi
@@ -94,11 +93,11 @@ string trungtosanghauto(STACK &stack, string so)
 	string ketqua(kq);
 	return ketqua;
 }
-int main()
+/*int main()
 {
     string s = "253+6*(7+3)*15";
     STACK stack;
   string ketqua=  trungtosanghauto(stack,s);
   cout<<ketqua<<endl;
   return 0;
-}
+}*/
