@@ -90,14 +90,15 @@ string trungtosanghauto(STACK &stack, string so)
 		kq[idx++] = k[0];
 		kq[idx++] = ' ';
 	}
+    kq[--idx]='\0';
 	string ketqua(kq);
 	return ketqua;
 }
-/*int main()
+int main()
 {
     string s = "253+6*(7+3)*15";
     STACK stack;
   string ketqua=  trungtosanghauto(stack,s);
   cout<<ketqua<<endl;
   return 0;
-}*/
+}
