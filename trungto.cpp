@@ -90,7 +90,6 @@ string trungtosanghauto(STACK &stack, string so)
 		kq[idx++] = k[0];
 		kq[idx++] = ' ';
 	}
-    kq[--idx]='\0';
 	string ketqua(kq);
 	return ketqua;
 }
